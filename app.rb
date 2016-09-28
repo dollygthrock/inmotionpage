@@ -18,3 +18,7 @@ end
 get '/about' do
 	erb :about
 end 
+
+get '/portfolio' do
+	erb :portfolio
+end 
