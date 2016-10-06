@@ -7,8 +7,8 @@ get '/' do
 	erb :index
 end
 
-get '/blog' do
-	erb :blog
+get '/fitness' do
+	erb :fitness
 end
 
 get '/contact' do
@@ -19,6 +19,6 @@ get '/about' do
 	erb :about
 end 
 
-get '/portfolio' do
-	erb :portfolio
+get '/gallery' do
+	erb :gallery
 end 
